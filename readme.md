@@ -1,4 +1,4 @@
-#Word Count Project
+# Word Count Project
 
 ## How to run the code
 
