@@ -2,11 +2,18 @@
 
 ## How to run the code
 
+I have used Spring initializr to create project to save time working on the dependencies. 
+
   Step 1: Git clone the project 
   
   Step 2: Run `mvn clean install` This will run the tests.
   
-  Step 3: Run `mvn surefire-report:report` This will share a handy report with the runtime. [Click Here to View a Static report](./site/surefire-report.html)
+  Step 3: Run `mvn surefire-report:report` This will share a handy report with the runtime. 
+  [Click Here to View a Static report](./site/surefire-report.html)
+  
+  Or
+  
+  [Click here to view a screen shot](https://github.com/padminimandal-babylon/word-count#surefire-report)
   
 
 ## Code 
@@ -62,9 +69,18 @@ There are 2 ways of Iteration I have used.
 ## Test
    I have used JUnit 5 and leveraged Parameterized test inputs. I have 13 test cases. 
    
+   Test Coverage: 100% ![Coverage](./documentation/images/coverage.png)
+   
    Methods for these 13 test cases are only 5 [Click here to view the tests](./src/test/java/com/interview/project/wordcount/MaxWordCountTest.java)
    
    ![JUnit Test Results on IntelliJ](./documentation/images/JUnitResult.png)
+   
+## Surefire Report
+
+I generated surefire report using maven plugin. Clearly represents the BruteFroce and Heap runtime details.    
+
+![Report](./documentation/images/surefire-report.png)
+   
 
 
 
